@@ -1,5 +1,5 @@
-# React Redux Skeleton
-This is a skeleton project for building React Redux applications. It uses Redux Thunk middleware for asyncronous actions.
+# FCC Heatmap
+This is a learning project to implement D3 to visualize statistics. This is part of freeCodeCamps Data Visualization Certification.
 
 ## Starting up
 After cloning this repo you should run `npm install`to install all the dependencies.
