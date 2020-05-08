@@ -19,6 +19,7 @@ class HeatMap extends React.Component {
             const data = this.props.appReducer.data;
             const heatMap = new D3HeatMap(data);
             heatMap.attachHeatMap();
+            heatMap.attachLegend("#legend");
         }
     }
 
@@ -28,14 +29,14 @@ class HeatMap extends React.Component {
         if (this.props.appReducer.hasData) {
             return (
                 <div id="heatmap">
-                    <p id="description">This is a heat map</p>
+                    <p id="description">Base temperature: {this.props.appReducer.baseTemp}</p>
                     { this.drawHeatMap() }
                 </div>
             );
         } else {
             return (
                 <div id="heatmap">
-                    <p id="description">This is a heat map</p>
+                    <p id="description">Loading heat map</p>
                 </div>
             );
         }

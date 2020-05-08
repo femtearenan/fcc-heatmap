@@ -2,6 +2,7 @@
   "name": "react-redux-skeleton",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://femtearenan.se/projects/fcc/heatmap",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
